@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Booking</title>
+    <style>
+        .head{
+            background-color: aqua;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <fieldset class="head"> 
+        <legend>Booking Service</legend>
+        <div align="center">
+    <table>  
+         <tr>
+            <td>Jenis Kendaraan</td>
+            <td>
+                <select>
+                    <option value="bola">Minibus</option>
+                    <option value="basket">Bus</option>
+                    <option value="tenis">Truk</option>
+                </select>
+            </td>
+         </tr>
+         <tr>
+            <td>Nama pemesan :</td>
+            <td><input  style="width: 455px;" type="text" name="name"></td>
+        </tr>
+        <td>Jenis Kelamin :</td>
+        <td>
+             <input type="radio" name="jk" value="l">  Pribadi
+              <input type="radio" name="jk" value="p"> Prusahaan / Organisasi
+        </td>
+        <tr>
+            <td><label for="name"></label> Deskripsi Kebutuhan : </label></td>
+             <td><textarea name="Description" cols="60" rows="5"></textarea></td>
+        </tr> 
+         
+        <tr>
+            <td>Tanggal :</td>
+            <td><input type="date" name="tgl"></td>
+        </tr>
+        <tr>
+            <td>Request Montir :</td>
+            <td><input type="text" name="name"></td>
+        </tr>
+        <tr>
+            <td><label for="name"></label> Telepon/HP : </label></td>
+            <td><input type="text" name="number"></td>
+        </tr>
+        <tr>
+            <td>Email :</td>
+            <td><input type="text" name="name"></td>
+        </tr>
+        <tr>
+            <td><input type="submit" name="proses" value="Sumbit" 
+                style="box-shadow: 4px 3px 2px black; color:white; background-color: blue;"</td>
+            <td><input type="reset" name="unproses" value="Reset"
+                 style="box-shadow: 4px 3px 2px black; color:white; background-color: red;"</td>
+           
+        </tr>
+    </table>
+    </div>
+    </fieldset>
+</body>
+</html>
